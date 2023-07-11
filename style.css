@@ -1,0 +1,418 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+      
+    .header{
+        margin-left: -300px;
+        width: 1920px;
+        height: 61px;
+        background-color: #0152A8;
+        color: white;
+        display: flex;
+    }
+    .header > div{
+        display: flex;
+    }
+
+    .header .left-text{
+        margin-top: 17px;
+        margin-left: 359px;
+
+    }
+    .center-text img{
+        margin-top: -0px;
+        margin-left: 340px;
+        width: 34px;
+        height: 34px;
+
+    }
+    .center-text {
+        display: flex;
+        margin-top: 14px;
+    }
+    .right-text img{
+        width: 34px;
+        height: 34px;
+        margin-top: 13px;
+        margin-left: 100px;
+    }
+    .right-text p{
+        margin-top: 14px;
+    }
+    .container{
+        width: 1800px;
+    }
+    .header2 img{
+        height: 57.7px;
+        margin-top: 47px;
+        margin-left: 20px;
+    }
+    .header2{
+        display: flex;
+    }
+    .header2 >div{
+        display: flex;
+    }
+    
+    .header2 h1{
+        margin-top: 60px;
+
+    }
+    
+    .header2center{
+
+        margin-left: 197px;
+        word-spacing: 30px;
+    }
+    .header2center p{
+        margin-top: 75px;
+    }
+    .header2right{
+        padding: 17px 38px;
+        background-color: #0FE3AF;
+        color: white;
+        width: 188px;
+        height: 61px;
+        margin-left: 170px;
+        margin-top: 45px; 
+
+}
+.header2right a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    width:1745px;
+    margin-left: -220px;
+    height: 258px;
+    padding: 100px 300px;
+    background-image: url(./main1img.png);
+}
+.katta > div{
+    margin-top: 20px;
+}
+.main p{
+    color: #1C1C1C;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+padding: 0 auto;
+}
+.katta{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+@media(max-width:550px){
+    .katta div {
+        flex-basis: calc(100% / 1);
+        max-width: calc(100% / 1);
+    }
+}
+.katta div {
+    flex-basis: calc(100% / 6);
+    max-width: calc(100% / 5);
+    margin-left: 70px;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: (1px 4px 20px);
+    flex-wrap: wrap;
+}
+.katta img{
+  max-width: 100%; 
+    
+}
+.katta .tort img{
+max-width: 100%;
+height: 100%;
+}
+.katta .olti img{
+    height: 100%;
+    max-width: 100%;
+}
+h3{
+    max-width: 300px;
+    margin-top: 5px;
+}
+h6{
+    margin-top: 10px;
+}
+section{
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(244, 240, 240);
+}
+input:hover{
+    background-color: rgb(238, 48, 48);
+}
+.aaa{
+    width:400;
+    height: 40px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(233, 52, 88);
+    margin: 50px;
+    margin-left: 700px;
+
+}
+.aaa:hover{
+    background-color: rgb(143, 7, 7);
+}
+.katta{
+    margin-top: 50px;
+}
+.bir >div{
+    margin: 10px;
+}
+.ikki >div{
+    margin: 10px;
+}
+.uch >div{
+    margin: 10px;
+}
+.besh >div{
+    margin: 10px;
+}
+.yetti >div{
+    margin: 10px;
+}
+.sakkiz >div{
+    margin: 10px;
+}
+.bir img{
+    margin: 20px;
+    
+}
+.ikki img{
+    margin: 20px;
+    
+}
+.uch img{
+    margin: 20px;
+    
+}
+.besh img{
+    margin: 20px;
+    
+}
+.yetti img{
+    margin: 20px;
+    
+}
+.sakkiz img{
+    margin: 20px;
+    
+}
+.section{
+    background-image: url(./section\ img.png);
+    max-width: 100%;
+    max-height: 100%;
+    padding: 180px 470px;
+}
+.section > div{
+    background-color: white;
+    width: 328px;
+    height: 220px;
+    text-align: center;
+}
+.section {
+    margin: 70px;
+}
+.section b{
+    color: #1C1C1C;
+font-family: Lato;
+font-size: 14px;
+letter-spacing: 5px;
+margin: 10px ;
+}
+.section h1{
+    margin-top: 16px;
+    color: #1C1C1C;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+}
+.section h4{
+    margin: 4px 20px;
+    color: #545454;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 142%;
+} 
+.team{
+    margin-left: -300px;
+    
+    width: 1920px;
+    border: none;
+        background-color: #0152A8;
+        color: white;
+        display: flex;
+padding: 200px 330px;
+}
+.min-team{
+    width: 1200px;
+    height: 896px;
+}
+.xxx{
+   display: flex;
+}
+.right {
+    padding: 17px 38px;
+    width: 350px;
+    height: 60px;
+    background-color: #0FE3AF;
+    margin-left: 580px;
+    margin-top: 17px;
+}
+.min-team h1{
+    width: 408px;
+}
+.right a{
+    text-decoration: none;
+    color: rgb(41, 17, 220);
+}
+.bottom{
+    flex-basis: calc(100% / 4);
+    max-width: calc(100% / 3);
+    display: flex;
+
+}
+.team .left p{
+    letter-spacing: 5px;
+}
+.bottom > div{
+
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    max-width: 100%;
+    margin-left: -6px;
+
+}
+
+.hr{
+    margin-top: 70px;
+}
+.hr-bottom{
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+}
+.hr-bottom > .hd-ikki {
+    margin-left: -180px;
+}
+.hr-bottom > .hd-uch {
+    margin-left: -180px;
+}
+.hr-bottom > .hd-tort {
+    margin-left: -180px;
+}
+.hr-bottom > .hd-besh {
+    margin-left: -180px;
+}
+.hr-bottom > .hd-bir {
+    margin-left: -50px;
+}
+.hr-bottom p{
+display: block;
+letter-spacing: 7px;
+}
+
+
+
+.footer .top > div{
+    display: flex;
+}
+.footer >.top {
+    display: flex;
+}
+.footer > .top img{
+width: 50px;
+height: 50px;
+}
+.ooo{
+    margin-left: 70px;
+}
+.ooo > img{
+    width: 40px;
+    height: 40px;
+}
+.ooo > p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ccc{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ppp > img{
+    width: 40px;
+    height: 40px;
+}
+.ppp{
+    margin-left: 70px;
+}
+.ift{
+    margin-left: 100px;
+    width: 250px;
+    height: 100px;
+}
+.footer-center{
+    display: flex;
+}
+
+.footer-right{
+    display: flex;
+}
+.footer-left{
+    max-width: 350px;
+}
+.footer .bir{
+    margin-left: 92px;
+}
+.footer .ikki{
+    margin-left: 92px;
+}
+.footer .uch{
+    margin-left: 92px;
+}
+
+.footer-right > p{
+    width: 40px;
+}
+.footer-center{
+    margin-top: 50px;
+}
+.footer > .top{
+    margin-top: 50px;
+}
+.fff{
+    width: 10px;
+}
+.footer .ikki > p{
+    width: 120px;
+}
+.footer .bir > p{
+    width: 150px;
+}
+.input{
+    padding: 17px 50px;
+    background-color: #0152A8;
+    width: 170px;
+}
+.input a{
+    color: white;
+    text-decoration: none;
+
+}
+
